@@ -1,21 +1,565 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<div id="app-content">
+  <div id="header">
+    <h1 id="title">STUDENT AUTÓSISKOLA</h1>
+  </div>
+  <div id="tab-container">
+    <tabset>
+      <tab heading="Képzéseink">
+        <tabset>
+          <tab heading="A1">
+            TÁJÉKOZTATÓ
+            „A1” alkategóriás képzésről (legfeljebb 125 cm3, 11 KW)
+            (közvetített szolgáltatást tartalmaz)
 
-<router-outlet></router-outlet>
+            Ügyfélfogadás rendje:
+            Helye: Kótaj, Katona Pál u. 24.
+            Ideje: hétfő: 18.00-20.00; szerda: 18.00-20.00; péntek: 16:00-20.00
+            Iskolavezetői fogadóóra: - előre egyeztetett időpontban.
+            A tanfolyamra való felvétel módja:
+             személyes jelentkezés, tájékoztatás
+             beiskolázási feltételek ellenőrzése (A beiskolázáshoz és a tanfolyamhoz kapcsolódó valamennyi
+            vizsgaeseményhez nélkülözhetetlen az érvényes személyi igazolvány, vagy az azt helyettesítő érvényes vezetői
+            engedély, útlevél, ideiglenes személyi igazolvány, esetleg ideiglenes vezetői engedély megléte, annak
+            bemutatása)
+             jelentkezési lap kitöltése, átadása a képzőszervnek
+             írásbeli szerződéskötés
+            Az „A1” alkategória megszerzéséhez orvosi igazolás szükséges, PÁV alkalmassági vizsgálat csak 5 sikertelen
+            forgalmi vizsga után kötelező.
+            Beiskolázási feltételek:
+             15 év 6 hónap életkor betöltése vagy érvényes „B” kategóriás vezetői engedély
+             a közlekedésbiztonsági feltételeknek megfelel
+             8 általános (alapfokú) iskolai végzettség
+
+            Elméleti vizsgát tehet aki:
+            -- 15 év 9 hónap életkort betöltötte
+            -- a tanfolyam elméleti részét igazoltan elvégezte
+            -- a vizsgadíjat befizette (4.600 Ft)
+
+            Szóbeli vizsgát tehet aki:
+             a magyar nyelvet nem érti, illetve beszéli
+             írásra képtelen állapotban van
+             hallássérült személy
+            (ezen vizsgák lebonyolításáról külön, személyre szabottan adunk tájékoztatást)
+
+            FONTOS: AZ előírások értelmében a tanuló a tanfolyam kezdetétől (az első előadás dátumától) számított 9
+            hónapon belül jelenthető le elméleti vizsgára, illetőleg ugyanezen időponttól számított 12 hónapon belül
+            sikeres elméleti vizsgát is kell tennie. Ezen határidőn túl a tanuló elméleti vizsgára kizárólag a tanfolyam
+            megismétlését követően jelenthető. A tanfolyam érvényességét a jogszabály átmeneti rendelkezéseire
+            figyelemmel 2013. október 1.-jét követően indult tanfolyamok esetében kell alkalmazni. Amennyiben a tanuló
+            vizsgakategóriájánál fogva mentesült a teljes elméleti tanfolyam alól, úgy ezen időpontot a vezetési karton
+            hitelesítésétől fogva kell számolni, tehát ettől az időponttól kezdődően számított 12 hónapon belül tehet
+            sikeres vizsgát. Szintén a jogszabály átmeneti rendelkezéseire figyelemmel ez az előírás a 2013. október
+            1-ét követően hitelesített vezetési kartonok esetében alkalmazandó.
+
+            Járműkezelési vizsgát tehet aki:
+             sikeres elméleti vizsgát tett
+             a 16. életévét betöltötte
+             az alapoktatás kötelező óráit teljesítette
+             a vizsgadíjat befizette (4.700 Ft)
+            Forgalmi vizsgát tehet aki:
+             sikeres járműkezelési vizsgát tett vagy „B” kategóriás vezetői engedélyét „A1” alkategóriával bővíti
+             a 16. életévét betöltötte
+             a főoktatás kötelező óráit levezette
+             a vizsgadíjat befizette (11.000 Ft)
+            Megjegyzés: - a vizsgákat a sikeres elméleti vizsgától számított 2 éven belül kell befejezni.
+            Elsősegély - nyújtási ismeretek megszerzésének módja:
+             a Magyar Vöröskereszt szervezi a tanfolyamokat, oktatja és vizsgáztatja a tanulókat
+             a vizsga nem tanfolyam kötelezett
+             a képzőszerv igény esetén elsősegély - nyújtási ismeretek tanfolyamot szervez, amelynek díja 5 000 Ft, a
+            vizsgadíj 6 500 Ft.
+            A 31/1992. (XII. 19.) NM rendelet alapján, valamint aki 1984. január 01. után bármely kategóriában vezetői
+            engedélyt, illetve járművezetői igazolványt szerzett, annak nem kell vizsgáznia.
+
+
+            Az elméleti tanfolyam tantárgyai: - közlekedési ismeretek, járművezetés elmélete, szerkezeti és üzemeltetési
+            ismeretek, a tankönyvet a képzőszerv biztosítja. (min. 22 tanóra)
+            Az elméleti tanórák 45 percesek, 10 perces szünetekkel, a hiányzás pótolható a következő tanfolyam ugyanazon
+            témakörén való részvétellel vagy pótfoglalkozással.
+
+
+            Kötelező óraszámok a közúti járművezető-képző tanfolyamokon
+
+            Kategória Alapismeretek
+            Elméleti és Bü tantárgyak Járművezetési gyakorlat
+            Összes óra K Je Szü Σóra A F F/v F/o F/é M (km)
+            A1, A2, 22 X X X 16 6 10 8 2 - 240
+            A1-B-vel 3 X X X 2 1 1 1 - - 30
+
+            A =alapoktatás
+            F = főoktatás
+            F/v = városi vezetés
+            F/o = országúti vezetés
+
+            F/é = éjszakai vezetés
+            M a teljes gyakorlati vezetés alatt elvárt, a tanuló által vezetett út minimum hossza
+
+
+
+            Vizsgaóra: - 1 tanóra (forgalmi vizsga)
+            A gyakorlati tanórák 50 percesek 10 perces szünettel.
+
+            Járműhasználat: Honda City Fly (CLR - 125)
+
+            Tanuló által biztosított jármű feltételei:
+             érvényes kötelező biztosítással rendelkezzen
+             a 24./2005. (IV. 21.) GKM rendeletben foglaltaknak megfeleljen
+             az oktatás helyszínére szállítást vállalja
+             a használat feltételeiről külön megállapodást köt
+
+
+            A tandíj befizetésének módja: - az elméleti tandíj az alapóra és a pótóra is a képzőszerv pénztárába
+            részletekben, a teljesítés megkezdése előtt történik. Forgalmi vizsgára csak az utolsó tandíjrészlet
+            kiegyenlítését követően kerülhet sor.
+
+            Tandíjak: (a képzőszerv bevétele)
+            - Elmélet: 30 000 Ft / 40 tanóra („B” – vel 5.000 Ft / 9 tanóra)
+            - Gyakorlat: 51.000 Ft / 17 tanóra („B” – vel 9.000 Ft / 3 tanóra)
+            - Pótóra: 3.000 Ft / tanóra
+
+            A teljes tandíj: 81.000 Ft a kötelező óraszámra vetítve, amely az NKH vizsgadíjait nem tartalmazza. („B" –
+            vel 12 500 Ft)
+
+            Felmentés: - a mozgáskorlátozottat, a hallássérültet, és a magyar nyelvet nem beszélő illetve értő tanulót a
+            képzés elméleti tantárgyainak foglalkozásain való részvétel alól – kérésre - az iskolavezető felmentheti. A
+            felmentett tanulók felkészítésében a képzőszerv a tanulóval kötött külön megállapodás szerint működik közre.
+
+             A 2006/126/EK irányelv előírásaiból eredő, a közlekedésbiztonság növelését célzó motoros kategóriák
+            közötti fokozatosságot motiváló rendszer jelentős átalakításra kerül. A vizsgázó mentesül az elméleti
+            tanfolyam és vizsga alól és gyakorlati vizsgára bocsátható abban az esetben, amennyiben az előzőleg
+            megszerzett motoros kategóriájától számított két éven belül jelentkezik az újabb motoros kategóriás
+            vizsgára, illetőleg az előzőleg megszerzett motoros kategóriája esetében nem mentesült az elméleti tanfolyam
+            és vizsga alól (két éven belül tett elméleti vizsgát). Változás továbbá, hogy ha két éven túl jelentkezik
+            újabb motoros kategóriára, úgy a motorkerékpárral megszerzett tapasztalata elismeréseként nem a teljes
+            tanfolyamot, hanem – az adott kategóriától függően – meghatározott óraszámú (a teljes tanfolyami óraszámnál
+            kevesebb óraszámú) tanfolyamot kell teljesítenie.
+
+            A tanuló áthelyezése:
+            - tanuló kérésére, formanyomtatvány alapján
+            - teljesített órák igazolása
+            - 2 példány a kérelmezőnek
+            - 1 példány a képzőszervnél marad
+
+            Az elméleti oktatás helyszínei:
+            - Nyíregyháza, Búza tér 3.
+            - Kótaj, Katona Pál u. 24.
+            - Napkor Általános Iskola
+
+            Alapoktatás: Nyíregyháza, Törzs út 108. rutinpálya
+            Főoktatás: Nyíregyháza és körzete
+            A tanulók váltása a rutinpályánál történik.
+
+            A képzés felügyeletét a Szabolcs – Szatmár – Bereg megyei Kormányhivatal Közlekedési Felügyelősége látja el.
+            Címe: 4400. Nyíregyháza, Törzs u. 108. I. em.
+            Tel: 06-42 596-166 vagy 06-42 596-167
+
+            A vizsgázó jogai:
+             oktatót választani
+             más képzőszervhez átjelentkezni
+             igénybe nem vett szolgáltatási díjat visszaigényelni
+             szerződést bontani
+
+            A vizsgázó kötelezettségei:
+             az előírt díjak megfizetése
+             az előírt öltözék biztosítása
+             oktatási rend betartása
+             károkozás esetén a kár megtérítése
+
+            Vizsgadíjak: (a Nemzeti Közlekedési Hatóság bevétele)
+            - elméleti vizsgadíj: 4.600 Ft
+            - járműkezelési vizsgadíj: 4.700 Ft
+            - forgalmi vizsgadíj: 11.000 Ft
+
+
+            Minden vizsgadíjat külön - külön a vizsga időpontja előtt 7 nappal kell befizetni, az elméleti vizsgadíjat a
+            képzőszervnél, a járműkezelési és forgalmi vizsgadíjat egyénileg a Közlekedési Felügyelőség pénztárába.
+
+            A vizsgaigazolás kiadása a sikeres forgalmi vizsgát követő munkanap 1300 órától az Eü - nyújtási ismeretek
+            igazolás bemutatása mellett az alábbi címen és időpontban: - Nyíregyháza, Törzs u. 108. hétfőtől -
+            csütörtökig 800 – 1530 ig. pénteken 800 – 1230 ig. (ebédidő: 1200 - 1230 ig.)
+
+            A vizsgaigazolás birtokában a vezetői engedélyt az Okmányiroda 4 000 Ft ellenében állítja ki.
+
+
+            Stahorszkiné Bernáth Márta iskolavezető és a STUDENT AUTÓSISKOLA munkatársai
+          </tab>
+          <tab heading="A">
+            TÁJÉKOZTATÓ (2013.)
+            „A” kategóriás képzésről (40 KW felett)
+            (közvetített szolgáltatást tartalmaz)
+
+            Ügyfélfogadás rendje:
+            Helye: Kótaj, Katona Pál u. 24.
+            Ideje: hétfő: 18.00-20.00; szerda: 18.00-20.00; péntek: 16:00-20.00
+            Iskolavezetői fogadóóra: - előre egyeztetett időpontban.
+            A tanfolyamra való felvétel módja:
+             személyes jelentkezés, tájékoztatás
+             beiskolázási feltételek ellenőrzése (A beiskolázáshoz és a tanfolyamhoz kapcsolódó valamennyi
+            vizsgaeseményhez nélkülözhetetlen az érvényes személyi igazolvány, vagy az azt helyettesítő érvényes vezetői
+            engedély, útlevél, ideiglenes személyi igazolvány, esetleg ideiglenes vezetői engedély megléte, annak
+            bemutatása)
+             jelentkezési lap kitöltése, átadása a képzőszervnek
+             írásbeli szerződéskötés
+            Az „A” kategória megszerzéséhez orvosi igazolás szükséges, PÁV alkalmassági vizsgálat csak 5 sikertelen
+            forgalmi vizsga után kötelező.
+            Beiskolázási feltételek:
+             23 év 6 hónap életkor betöltése
+             a közlekedésbiztonsági feltételeknek megfelel
+             8 általános (alapfokú) iskolai végzettség
+            Elméleti vizsgát tehet aki:
+            -- 23 év 9 hónap életkort betöltötte
+            -- a tanfolyam elméleti részét igazoltan elvégezte
+            -- a vizsgadíjat befizette (4.600 Ft)
+            Szóbeli vizsgát tehet aki:
+             a magyar nyelvet nem érti, illetve beszéli
+             írásra képtelen állapotban van
+             hallássérült személy
+            (ezen vizsgák lebonyolításáról külön, személyre szabottan adunk tájékoztatást)
+
+            FONTOS: AZ előírások értelmében a tanuló a tanfolyam kezdetétől (az első előadás dátumától) számított 9
+            hónapon belül jelenthető le elméleti vizsgára, illetőleg ugyanezen időponttól számított 12 hónapon belül
+            sikeres elméleti vizsgát is kell tennie. Ezen határidőn túl a tanuló elméleti vizsgára kizárólag a tanfolyam
+            megismétlését követően jelenthető. A tanfolyam érvényességét a jogszabály átmeneti rendelkezéseire
+            figyelemmel 2013. október1-ét követően indult tanfolyamok esetében kell alkalmazni. Amennyiben a tanuló
+            vizsgakategóriájánál fogva mentesült a teljes elméleti tanfolyam alól, úgy ezen időpontot a vezetési karton
+            hitelesítésétől fogva kell számolni, tehát ettől az időponttól kezdődően számított 12 hónapon belül tehet
+            sikeres vizsgát. Szintén a jogszabály átmeneti rendelkezéseire figyelemmel ez az előírás a 2013. október
+            1-ét követően hitelesített vezetési kartonok esetében alkalmazandó.
+            Járműkezelési vizsgát tehet aki:
+             sikeres elméleti vizsgát tett
+             a 21. életévét betöltötte
+             az alapoktatás kötelező óráit teljesítette
+             a vizsgadíjat befizette (4.700 Ft)
+            Forgalmi vizsgát tehet aki:
+             sikeres járműkezelési vizsgát tett
+             a 24. életévét betöltötte
+             a főoktatás kötelező óráit levezette
+             a vizsgadíjat befizette (11.000 Ft)
+            Megjegyzés: - a vizsgákat a sikeres elméleti vizsgától számított 2 éven belül kell befejezni.
+
+            Elsősegély - nyújtási ismeretek megszerzésének módja:
+             a Magyar Vöröskereszt szervezi a tanfolyamokat, oktatja és vizsgáztatja a tanulókat
+             a vizsga nem tanfolyam kötelezett
+             a képzőszerv igény esetén elsősegély - nyújtási ismeretek tanfolyamot szervez, amelynek a díja 5 000 Ft, a
+            vizsgadíj 6 500 Ft.
+            A 31/1992. (XII. 19.) NM rendelet alapján, valamint aki 1984. január 01. után bármely kategóriában vezetői
+            engedélyt, illetve járművezetői igazolványt szerzett, annak nem kell vizsgáznia.
+
+            Az elméleti tanfolyam tantárgyai: - közlekedési ismeretek, járművezetés elmélete, szerkezeti és üzemeltetési
+            ismeretek, a tankönyvet a képzőszerv biztosítja. (min. 22 tanóra)
+            Az elméleti tanórák 45 percesek, 10 perces szünetekkel, a hiányzás pótlása történhet a következő tanfolyam
+            ugyanazon témakörén való részvétellel vagy pótfoglalkozással.
+
+
+            Kötelező óraszámok a közúti járművezető-képző tanfolyamokon
+
+            Kategória Alapismeretek
+            Elméleti és Bü tantárgyak Járművezetési gyakorlat
+            Σ óra K Je Szü Σóra A F F/v F/o F/é M
+            A1, A2, 22 X X X 16 6 10 8 2 - 240
+            A11) 3 X X X 2 1 1 1 - - 30
+
+            A22) 3 X X X 12 4 8 6 2 - 180
+            A23) 3 X X X 8 2 6 4 2 - 120
+            A4) 3 X X X 12 4 8 6 2 - 180
+            A5) 3 X X X 8 2 6 4 2 120
+            A2) 22 X X X 16 6 10 8 2 240
+            A3) 3 X X X 10 4 6 4 2 150
+            A6) 22 X X X 26 10 16 11 5 390
+
+            A =alapoktatás
+            F = főoktatás
+            F/v = városi vezetés
+            F/o = országúti vezetés
+
+            F/é = éjszakai vezetés
+            M a teljes gyakorlati vezetés alatt elvárt, a tanuló által vezetett út minimum hossza
+            A gyakorlati tanórák 50 percesek 10 perces szünettel.
+
+            Járműhasználat: Kawasaki ER - 5
+
+            Tanuló által biztosított jármű feltételei:
+             érvényes kötelező biztosítással rendelkezzen
+             a 24./2005. (IV. 21.) GKM rendeletben foglaltaknak megfeleljen
+             az oktatás helyszínére szállítást vállalja
+             a használat feltételeiről külön megállapodást köt
+
+            A tandíj befizetésének módja: - az elméleti tandíj az alapóra és a pótóra is a képzőszerv pénztárába
+            részletekben, a teljesítés megkezdése előtt történik. Forgalmi vizsgára csak az utolsó tandíjrészlet
+            kiegyenlítését követően kerülhet sor.
+
+            Tandíjak: (a képzőszerv bevétele)
+            - Elmélet: 30 000 Ft (40 tanóra)
+            - Gyakorlat: 81.000 Ft (27 tanóra)
+            - Pótóra: 3 000 Ft/ tanóra
+
+            A teljes tandíj: 111.000 Ft a kötelező óraszámra vetítve, amely az NKH vizsgadíjait nem tartalmazza.
+
+            Felmentés: - a mozgáskorlátozottat, a hallássérültet, és a magyar nyelvet nem beszélő illetve értő tanulót a
+            képzés elméleti tantárgyainak foglalkozásain való részvétel alól – kérésre - az iskolavezető felmentheti. A
+            felmentett tanulók felkészítésében a képzőszerv a tanulóval kötött külön megállapodás szerint működik közre.
+
+            Az 1 évnél nem régebbi érvényes „A1” vagy „AK” kategóriás vezetői engedéllyel vagy vizsgaigazolással
+            rendelkező tanuló, ha a 24. évet betöltötte: - akkor alapoktatás: 4 tanóra, - városi vezetés: 4 tanóra, -
+            országúti vezetés: 2 tanóra, - vizsgaóra: 1 tanóra.
+
+             A 2006/126/EK irányelv előírásaiból eredő, a közlekedésbiztonság növelését célzó motoros kategóriák
+            közötti fokozatosságot motiváló rendszer jelentős átalakításra kerül. A vizsgázó mentesül az elméleti
+            tanfolyam és vizsga alól és gyakorlati vizsgára bocsátható abban az esetben, amennyiben az előzőleg
+            megszerzett motoros kategóriájától számított két éven belül jelentkezik az újabb motoros kategóriás
+            vizsgára, illetőleg az előzőleg megszerzett motoros kategóriája esetében nem mentesült az elméleti tanfolyam
+            és vizsga alól (két éven belül tett elméleti vizsgát). Változás továbbá, hogy ha két éven túl jelentkezik
+            újabb motoros kategóriára, úgy a motorkerékpárral megszerzett tapasztalata elismeréseként nem a teljes
+            tanfolyamot, hanem – az adott kategóriától függően – meghatározott óraszámú (a teljes tanfolyami óraszámnál
+            kevesebb óraszámú) tanfolyamot kell teljesítenie.
+
+            A tanuló áthelyezése:
+            - tanuló kérésére, formanyomtatvány alapján
+            - teljesített órák igazolása
+            - 2 példány a kérelmezőnek
+            - 1 példány a képzőszervnél marad
+
+            Az elméleti oktatás helyszínei:
+            - Nyíregyháza, Búza tér 3.
+            - Kótaj, Katona Pál u. 24.
+            - Napkor Általános Iskola
+
+            Alapoktatás: Nyíregyháza, Törzs út 108. rutinpálya
+            Főoktatás: Nyíregyháza és körzete
+            A tanulók váltása a rutinpályán történik.
+
+            A képzés felügyeletét a Szabolcs – Szatmár – Bereg megyei Kormányhivatal Közlekedési Felügyelősége látja el.
+            Címe: 4400. Nyíregyháza, Törzs u. 108. I. em.
+            Tel: 06-42 596 166 vagy 06-42 596 167
+
+            A vizsgázó jogai:
+             oktatót választani
+             más képzőszervhez átjelentkezni
+             igénybe nem vett szolgáltatási díjat visszaigényelni
+             szerződést bontani
+
+            A vizsgázó kötelezettségei:
+             az előírt díjak megfizetése
+             az előírt öltözék biztosítása
+             oktatási rend betartása
+             károkozás esetén a kár megtérítése
+
+            Vizsgadíjak: (a Nemzeti Közlekedési Hatóság bevétele)
+            - elméleti vizsgadíj: 4.600 Ft
+            - járműkezelési vizsgadíj: 4.700 Ft
+            - forgalmi vizsgadíj: 11.000 Ft
+
+            Minden vizsgadíjat külön - külön a vizsga időpontja előtt 7 nappal kell befizetni, az elméleti vizsgadíjat a
+            képzőszervnél, a járműkezelési és forgalmi vizsgadíjat egyénileg a Közlekedési Felügyelőség pénztárába.
+
+            A vizsgaigazolás kiadása a sikeres forgalmi vizsgát követő munkanap 1300 órától az Eü - nyújtási ismeretek
+            igazolás bemutatása mellett az alábbi címen és időpontban: - Nyíregyháza, Törzs u. 108. hétfőtől -
+            csütörtökig 800 – 1530 ig. pénteken 800 – 1230 ig. (ebédidő: 1200 - 1230 ig.)
+
+            A vizsgaigazolás birtokában a vezetői engedélyt az Okmányiroda 4 000 Ft ellenében állítja ki.
+
+          </tab>
+          <tab heading="B">
+            <p>
+              TÁJÉKOZTATÓ
+              „B” kategóriás képzésről
+              (közvetített szolgáltatást tartalmaz)
+
+              Ügyfélfogadás rendje:
+              Helye: Kótaj, Katona Pál u. 24.
+              Ideje: hétfő: 18.00-20.00; szerda: 18.00-20.00; péntek: 16:00-20.00
+              Iskolavezetői fogadóóra: - előre egyeztetett időpontban.
+              A tanfolyamra való felvétel módja:
+               személyes jelentkezés, tájékoztatás
+               beiskolázási feltételek ellenőrzése (A beiskolázáshoz és a tanfolyamhoz kapcsolódó valamennyi
+              vizsgaeseményhez nélkülözhetetlen az érvényes személyi igazolvány, vagy az azt helyettesítő érvényes
+              vezetői
+              engedély, útlevél, ideiglenes személyi igazolvány, esetleg ideiglenes vezetői engedély megléte, annak
+              bemutatása)
+               jelentkezési lap kitöltése, átadása a képzőszervnek
+               írásbeli szerződéskötés
+              Beiskolázási feltételek:
+               a meghatározott életkort betöltötte, (17 év) vagy annál legfeljebb 6 hónappal fiatalabb
+               a közlekedésbiztonsági feltételeknek megfelel
+              Elsősegély-nyújtási ismeretek megszerzésének módja:
+              A tanuló önállóan is bejelentkezhet a Magyar Vöröskereszt által szervezett vizsgákra, mivel ez a tantárgy
+              nem tanfolyam kötelezett, igény szerint a képzőszerv megszervezi a tanfolyamot, amelynek díja: 5 000 Ft, a
+              vizsga díja: 6 500 Ft.
+              Felmentés: a 31/1992. (XII. 19.) NM rendelet alapján, valamint aki 1984. január 01. után bármely
+              kategóriában vezetői engedélyt, illetve járművezetői igazolványt szerzett, annak nem kell vizsgáznia.
+              Az elméleti vizsgára bocsátás feltételei:
+               16 év 9 hónap életkor betöltése
+               a tanfolyamot igazoltan elvégezte
+               a vizsgadíjat befizette (4.600 Ft)
+               az orvosi alkalmasságot igazoló orvosi vélemény csatolása.
+               Az alapfokú iskolai végzettség igazolása esetében az elméleti vizsgára bocsátáskor elegendő a tanuló
+              nyilatkozata a végzettség meglétéről, amely nyilatkozatot a jelentkezési lapon kell megtennie. Ezt
+              követően
+              a vizsgaigazolás kiállításáig (tehát akár korábban is) akár a tanuló, akár a képző szerv a folyamat
+              bármely
+              pontján igazolhatja hitelt érdemlő módon (a korábbiaknak megfelelően) az alapfokú iskolai végzettség
+              meglétét.
+
+              Szóbeli vizsgát tehet aki:
+               a magyar nyelvet nem érti, illetve beszéli
+               írásra képtelen állapotban van
+               hallássérült személy
+              (ezen vizsgák lebonyolításáról külön, személyre szabottan adunk tájékoztatást)
+
+              FONTOS: AZ előírások értelmében a tanuló a tanfolyam kezdetétől (az első előadás dátumától) számított 9
+              hónapon belül jelenthető le elméleti vizsgára, illetőleg ugyanezen időponttól számított 12 hónapon belül
+              sikeres elméleti vizsgát is kell tennie. Ezen határidőn túl a tanuló elméleti vizsgára kizárólag a
+              tanfolyam
+              megismétlését követően jelenthető. A tanfolyam érvényességét a jogszabály átmeneti rendelkezéseire
+              figyelemmel 2013. október 1-ét követően indult tanfolyamok esetében kell alkalmazni. Amennyiben a tanuló
+              vizsgakategóriájánál fogva mentesült a teljes elméleti tanfolyam alól, úgy ezen időpontot a vezetési
+              karton
+              hitelesítésétől fogva kell számolni, tehát ettől az időponttól kezdődően számított 12 hónapon belül tehet
+              sikeres vizsgát. Szintén a jogszabály átmeneti rendelkezéseire figyelemmel ez az előírás a 2013. október
+              1-ét követően hitelesített vezetési kartonok esetében alkalmazandó.
+
+
+              Forgalmi vizsgát tehet:
+               a 17. életévét betöltötte
+               a kötelező gyakorlati órákat levezette
+               a vizsgadíjat befizette (11.000 Ft)
+
+              Az elméleti tanfolyam tantárgyai és óraszámai: (kötelező óraszám: 28 tanóra)
+              Elmélet: - közlekedési ismeretek
+              - járművezetés elmélete
+              - szerkezeti és üzemeltetési ismeretek
+              A kötelező elméleti órákról hiányzó tanulók pótfoglalkozáson, vagy a következő tanfolyam ugyanazon
+              témakörén
+              való részvétellel pótolhatják a hiányzást.
+              Kötelező óraszámok a közúti járművezető-képző tanfolyamokon
+
+              Kategória Alapismeretek
+              Elméleti és Bü tantárgyak Járművezetési gyakorlat
+              Σ óra K Je Szü Σóra A F F/v F/o F/é M (km)
+              B 28 X X X 29 9 20 14 4 2 580
+
+              A =alapoktatás
+              F = főoktatás
+              F/v = városi vezetés
+              F/o = országúti vezetés
+
+              F/é = éjszakai vezetés
+              M a teljes gyakorlati vezetés alatt elvárt minimum, a tanuló által vezetett út
+
+              Oktatási idők:
+              - elmélet: 1 tanóra = 45 perc
+              - gyakorlat: 1 tanóra = 50 perc
+              - szünet: a tanórák között 10 perc
+
+              Tandíjak: (a képzőszerv bevétele)
+              - elmélet: 30 000 Ft (40 tanóra)
+              - gyakorlat: 90 000 Ft (30 tanóra)
+              - Pótóra: 3.000 Ft / tanóra
+              - A vizsgapálya használati díja: 1.900 Ft./fő
+
+              A teljes tandíj: 120 000 Ft a kötelező óraszámra vetítve, amely az NKH vizsgadíjait nem tartalmazza.
+
+              Az elméleti tandíj az alapóra és a pótóra befizetése részletekben történik a teljesítés arányában a
+              képzőszerv pénztárába, forgalmi vizsgára csak az utolsó tandíjrészlet kiegyenlítését követően kerülhet
+              sor.
+              Járműhasználat: - a mozgáskorlátozott személy saját járművével, amelyet oktatói műszaki vizsgával kell
+              ellátni, és az orvosi előírásoknak megfelelően kell átalakítani. Az oktatás során e jármű fenntartási
+              költségei a tanulót terhelik, (biztosítás, üzemanyag, javítási és üzemeltetési költség), ez esetben az
+              oktató díja 1500 Ft / tanóra.
+              Rendelkezésre álló járművek: Renault Megane Scénic; Ford Fusion; Fiat Punto ; Opel Astra
+
+              Az elméleti oktatás helyszínei:
+              - Nyíregyháza, Búza tér 3.
+              - Kótaj, Katona Pál u.24.
+              - Napkor Általános Iskola
+
+              Alapoktatás: Nyíregyháza, Törzs u. 108. rutinpálya
+              Főoktatás: Nyíregyháza és körzete
+              A tanulók váltása történhet: - a rutinpályán, előzetes egyeztetés után: Nyíregyháza
+
+              A tanuló áthelyező kiadása:
+               a tanuló kérésére 3 példányos formanyomtatványon
+               a teljesített órák igazolása
+               2 példányt a tanuló kap
+               1 példány a képzőszervnél marad
+              A tanuló jogai:
+               szolgáltatásunkat igénybe venni
+               oktatót, járművet választani
+               más képzőszervhez átjelentkezni
+               a nem teljesített szolgáltatási díjat visszaigényelni
+               panaszát az iskolavezető felé jelezni
+               szerződésbontást kezdeményezni
+              A tanuló kötelezettségei:
+               a tandíjak és vizsgadíjak befizetése
+               a foglalkozásokon való részvétel
+               hatékony közreműködés
+               járművezetésre képes állapotban megjelenni
+              A képzőszerv jogai:
+               csak a pénzügyi fedezet mértékéig teljesíteni
+               kellő indok esetén szerződésbontást kezdeményezni
+               az inflációs hatásokat figyelembe venni
+               a képzési rendeletet érvényesíteni
+              A képzőszerv kötelezettségei:
+               a szerződésben foglaltakat betartani
+               a tanuló áthelyezőt kérésre kiadni
+               a tanuló panaszát orvosolni
+               az árváltozásról a tanulót írásban értesíteni
+               a képzési rendelet alapján meghatározott tansegédletet biztosítani
+              Vizsgadíjak: (a Nemzeti Közlekedési Hatóság bevétele)
+              - elméleti vizsgadíj: 4.600 Ft
+              - forgalmi vizsgadíj: 11.000 Ft
+
+              Minden vizsgadíjat külön - külön a vizsga időpontja előtt 7 nappal kell befizetni, az elméleti vizsgadíjat
+              a
+              képzőszervnél, a forgalmi vizsgadíjat egyénileg a Közlekedési Felügyelőség pénztárába.
+
+              A vizsgaigazolás kiadása a sikeres forgalmi vizsgát követő munkanap 1300 órától az EÜ - nyújtási ismeretek
+              igazolás bemutatása mellett az alábbi címen és időpontban: - Nyíregyháza Törzs u. 108. hétfőtől –
+              csütörtökig 800 – 1530 ig. pénteken 800 – 1230 ig. (ebédidő: 1200 – 1230 ig.)
+
+              A képzés felügyeletét: a Szabolcs – Szatmár – Bereg megyei Kormányhivatal Közlekedési Felügyelősége látja
+              el.
+              Címe: 4400. Nyíregyháza, Törzs u. 108. I. em.
+              Tel: 06-42 596 166 vagy 06-42 596 167
+
+              A vizsgaigazolás birtokában a vezetői engedélyt az Okmányiroda 4 000 Ft ellenében állítja ki.
+            </p>
+          </tab>
+        </tabset>
+      </tab>
+      <tab heading="Megfelelési statisztika">
+        <div class="pdf-container">
+            <ngx-extended-pdf-viewer [src]="'assets/Statisztika.pdf'" useBrowserLocale="true" height="80vh">
+            </ngx-extended-pdf-viewer>
+        </div>
+      </tab>
+      <tab heading="Oktató járműveink">
+        <div id="vehicles-info-container">
+          <h4>Oktato jarmuveink</h4>
+          <div class="image-container">
+            <label>Ford Fusion - 2007</label>
+            <img src="assets/Ford_Fusion_front_20080222.jpg" alt="Ford Fusion - 2007">
+          </div>
+          <div class="image-container">
+              <label>Suzuki Wagon R - 2005</label>
+              <img src="assets/suzuki_wagonr00.webp" alt="Suzuki Wagon R - 2005">
+            </div>
+        </div>
+      </tab>
+      <tab heading="Kapcsolat">
+        <div id="contact-info-container">
+          <div id="text-contact-info">
+            <p><b>Iskola vezetője: </b>Stahorszkiné Bernáth Márta Katalin</p>
+            <p><b>Telefonszám: </b>+36 20 932 5753</p>
+            <p><b>E-mail cím: </b>stahorszkine@gmail.com</p>
+            <p><b>Telephely: </b>4482, Kótaj, Katona Pál utca 24.</p>
+          </div>
+          <div id="map-contact-info">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2667.2711334637493!2d21.70083631589156!3d48.047102465436566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4738a24e3b98f85f%3A0xd8160c3588587540!2zS8OzdGFqLCBLYXRvbmEgUMOhbCB1LiAyNCwgNDQ4Mg!5e0!3m2!1sen!2shu!4v1569314218027!5m2!1sen!2shu"
+              frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+          </div>
+        </div>
+      </tab>
+    </tabset>
+  </div>
+</div>

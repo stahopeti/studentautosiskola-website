@@ -24,12 +24,32 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              {
+                "glob": "**/*",
+                "input": "node_modules/ngx-extended-pdf-viewer/assets/locale",
+                "output": "/assets/locale/"
+              },
+              {
+                "glob": "**/*",
+                "input": "node_modules/ngx-extended-pdf-viewer/assets/images",
+                "output": "/assets/images/"
+              },
+              {
+                "glob": "**/*.md",
+                "input": "src/app/",
+                "output": "/assets"
+              }
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/ngx-extended-pdf-viewer/assets/pdf.js",
+              "node_modules/ngx-extended-pdf-viewer/assets/pdf.worker.js",
+              "node_modules/ngx-extended-pdf-viewer/assets/viewer.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -87,6 +107,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -118,6 +139,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "studentautosiskola"
 }
