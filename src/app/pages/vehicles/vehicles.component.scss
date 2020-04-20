@@ -1,0 +1,25 @@
+// ::ng-deep .tab-content {
+//     background-color: lightgray;
+//     position: relative;
+//     top: 0; left: 0; width: 100%; height: 100%;
+//     // overflow: hidden;
+// }
+
+::ng-deep .nav.nav-tabs {
+    background-color: white;
+}
+
+.tabset-container {
+    position: relative;
+    background-color: lightgray;
+    top: 0; left: 0; width: 100%; height: 100%;
+    // overflow: auto;
+    overflow: auto;
+}
+
+// .vehicles-info-container {
+//     position: relative;
+//     top: 0; left: 0; width: 100%; height: 100%;
+//     overflow: scroll;
+//     background-color: lightgray;
+// }
