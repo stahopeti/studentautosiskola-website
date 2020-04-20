@@ -43,7 +43,9 @@
             ],
             "styles": [
               "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/styles/styles.css",
               "src/styles.scss"
+
             ],
             "scripts": [
               "node_modules/ngx-extended-pdf-viewer/assets/pdf.js",
